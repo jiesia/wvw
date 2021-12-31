@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+const { default: start } = require('../lib');
+
+start(process.cwd(), process.argv);
